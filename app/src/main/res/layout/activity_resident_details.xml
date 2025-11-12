@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/resident_bg"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/residentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resident_details"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp"
+            android:gravity="center" />
+
+        <!-- Common style: larger touch area + white text -->
+        <!-- Name Field -->
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:padding="12dp"
+            android:hint="@string/hint_name"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColorHint="#B0FFFFFF"
+            android:backgroundTint="#FFFFFFFF"
+            android:layout_marginBottom="16dp"
+            android:inputType="textPersonName" />
+
+        <!-- Course Field -->
+        <EditText
+            android:id="@+id/courseEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:padding="12dp"
+            android:hint="@string/hint_course"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColorHint="#B0FFFFFF"
+            android:backgroundTint="#FFFFFFFF"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <!-- Room Number Field -->
+        <EditText
+            android:id="@+id/roomEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:padding="12dp"
+            android:hint="@string/hint_room"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColorHint="#B0FFFFFF"
+            android:backgroundTint="#FFFFFFFF"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <!-- Block Field -->
+        <EditText
+            android:id="@+id/blockEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:padding="12dp"
+            android:hint="@string/hint_block"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textColorHint="#B0FFFFFF"
+            android:backgroundTint="#FFFFFFFF"
+            android:layout_marginBottom="24dp"
+            android:inputType="text" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/btn_save_details"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp"
+            android:elevation="4dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

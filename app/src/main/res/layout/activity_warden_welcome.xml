@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower_bg"
+    android:padding="24dp">
+
+    <!-- Welcome Warden text (white, bold, with purple side lines) -->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:background="#800080" /> <!-- Purple line -->
+
+        <TextView
+            android:id="@+id/welcomeWardenText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Warden"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:background="#800080" /> <!-- Purple line -->
+    </LinearLayout>
+
+    <!-- Button below the welcome text -->
+    <Button
+        android:id="@+id/viewComplaintsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Resident Complaints"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:layout_below="@id/headerLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:padding="12dp" />
+
+</RelativeLayout>

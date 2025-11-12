@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HostEase</string>
+    <string name="app_logo">App logo</string>
+    <string name="resident_complaint_form">Resident Complaint Form</string>
+    <string name="resident_details">Resident Details</string>
+    <string name="resident_details_title">Resident Details</string>
+    <string name="hint_name">Enter Full Name</string>
+    <string name="hint_course">Enter Course/Work</string>
+    <string name="hint_room">Enter Room Number</string>
+    <string name="hint_block">Enter Block Name</string>
+    <string name="btn_save_details">Save Details</string>
+
+
+</resources>

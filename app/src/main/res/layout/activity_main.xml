@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/hostease_logo"
+        android:contentDescription="@string/app_logo"
+        android:layout_marginBottom="16dp" />
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HostEase"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Button Row -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/residentButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Resident"
+            android:backgroundTint="#00695C"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/rounded_button" />
+
+        <Button
+            android:id="@+id/wardenButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Warden"
+            android:backgroundTint="#00695C"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/rounded_button" />
+    </LinearLayout>
+
+</LinearLayout>
