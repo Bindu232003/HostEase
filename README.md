@@ -2,14 +2,17 @@
 
 HostEase is a native Android application designed to streamline communication and management tasks within a hostel or residential block environment. It provides separate, role-based dashboards for Residents and Wardens, focusing primarily on efficient complaint submission, tracking, and status updates.
 
-## ✨ Key Features
+## ✨ Key Features & Screenshots
 
-* **Role-Based Access:** Separate login flows and user interfaces for **Residents** and **Wardens**.
-* **Resident Complaint Submission:** Easy-to-use form for residents to report issues (Plumbing, Electrical, Cleaning, etc.).
-* **Warden Complaint Management:** A dynamic dashboard for Wardens to view all submitted complaints and quickly update their status (Registered, Ongoing, Resolved).
-* **Live Status Tracking:** Residents can view the real-time status of their submitted complaints.
-* **Data Persistence:** Uses Android's `SharedPreferences` (and likely **Gson** for structured data) for local data storage and persistence.
-* **Modern UI:** Clean, intuitive interface built using native Android views and Kotlin. 
+| Feature | Description | Screenshot |
+| :--- | :--- | :--- |
+| **Welcome/Role Selection** | The initial screen allowing users to choose between Resident and Warden roles. | ![HostEase Welcome Screen]([YOUR_IMAGE_URL_FOR_Welcome]) |
+| **Resident Details Setup** | Input fields for residents to enter their personal information (Name, Course, Room, Block). | ![Resident Details Input]([YOUR_IMAGE_URL_FOR_Resident_Details_Input]) |
+| **Resident Status View** | Dashboard section showing the resident's current details and the status of their latest complaint (e.g., Pending). | ![Resident Dashboard Status]([YOUR_IMAGE_URL_FOR_Resident_Dashboard_Status]) |
+| **Warden Login** | The dedicated login screen for hostel Wardens using a PIN. | ![Warden Login Screen]([YOUR_IMAGE_URL_FOR_Warden_Login]) |
+| **Warden Welcome** | The landing page for the Warden after successful login, with a button to view complaints. | ![Warden Welcome Screen]([YOUR_IMAGE_URL_FOR_Warden_Welcome]) |
+| **Warden Complaint View** | The interface for Wardens to view individual complaints and manage status updates. | ![Warden Complaint Card Example]([YOUR_IMAGE_URL_FOR_Warden_Complaint_Card]) |
+| **Resident Status & Actions** | The resident dashboard showing complaint charts (requires MPAndroidChart) and quick action buttons. | ![Resident Dashboard with Chart]([YOUR_IMAGE_URL_FOR_Resident_Dashboard_Chart]) |
 
 ---
 
@@ -80,5 +83,3 @@ If you find any bugs or have suggestions for improvements, feel free to open an 
 
 * **GitHub Profile:** [Bindu232003](https://github.com/Bindu232003)
 * **Project Link:** [https://github.com/Bindu232003/HostEase](https://github.com/Bindu232003/HostEase)
-
-***
